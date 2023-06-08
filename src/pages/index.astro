@@ -19,5 +19,10 @@ import Header form'../components/header.astro';
 		<h1>测试一下是否可以与githun同步更新</h1>
 		<Header />
 		<Footer />
+ 		<script>
+    		document.querySelector('.hamburger').addEventListener('click', () => {
+      			document.querySelector('.nav-links').classList.toggle('expanded');
+    		});
+ 	</script>
 	</body>
 </html>
