@@ -2,8 +2,9 @@
 const { frontmatter } = Astro.props;
 ---
 <h1> {frontmatter.title}</h1>
-<p>{frontmatter.pubDate.slice(0,10)}</p>
+<p>发布日期：{frontmatter.pubDate.slice(0,10)}</p>
 <p><em>{frontmatter.description}</em></p>
-<p>Written by: Bigmax</p>
+<p>作者: Bigmax</p>
+<p>标签：{frontmatter.tags}</p>
 <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
 <slot />
