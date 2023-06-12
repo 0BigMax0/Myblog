@@ -3,7 +3,6 @@ import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
-<h1> {frontmatter.title}</h1>
 <p>文章标签：{frontmatter.tags}</p>
 <p>发布日期：{frontmatter.pubDate.slice(0,10)}</p>
 <p>作者: Bigmax</p>
