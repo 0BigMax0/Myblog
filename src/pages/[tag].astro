@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  return [
+    { params: { tag: "博客开发" } },
+    { params: { tag: "软件开发" } },
+    { params: { tag: "算法设计" } },
+    { params: { tag: "论文复盘" } },
+    { params: { tag: "优化知识" } },
+  ];
+}
+
+const { tag } = Astro.params;
+---
+<BaseLayout pageTitle={tag}>
+  <p>Posts tagged with {tag}</p>
+</BaseLayout>

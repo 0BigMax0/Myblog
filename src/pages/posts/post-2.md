@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My second Blog Post'
-tags: ["astro, ", "blogging, ", "learning in public, "]
+tags: ["网站开发"]
 pubDate: 2022-07-01
 
 ---
