@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My first Blog Post'
-tags: ["网站开发"]
+tags: ["博客开发"]
 pubDate: 2022-07-01
 
 ---
