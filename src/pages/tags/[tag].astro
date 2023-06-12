@@ -5,11 +5,11 @@ import BlogPost from '../components/BlogPost.astro';
 export async function getStaticPaths() {
   const allPosts = await Astro.glob('../posts/*.md');
   return [
-    { params: { tag: "博客开发" }, props: {posts: allPosts}},}, 
-    { params: { tag: "软件开发" }, props: {posts: allPosts}}, },
-    { params: { tag: "算法设计" }, props: {posts: allPosts}}, },
-    { params: { tag: "论文复盘" }, props: {posts: allPosts}}, },
-    { params: { tag: "优化知识" }, props: {posts: allPosts}}, },
+    { params: { tag: "博客开发" }, props: {posts: allPosts}},
+    { params: { tag: "软件开发" }, props: {posts: allPosts}},
+    { params: { tag: "算法设计" }, props: {posts: allPosts}},
+    { params: { tag: "论文复盘" }, props: {posts: allPosts}},
+    { params: { tag: "优化知识" }, props: {posts: allPosts}},
   ];
 }
 
