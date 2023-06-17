@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My second Blog Post'
+title: 'Astro博客开发'
 tags: ["博客开发"]
 pubDate: 2022-07-01
 
